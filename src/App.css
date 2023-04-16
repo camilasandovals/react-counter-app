@@ -8,16 +8,14 @@
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-h1,h2,h3,p { font-family: 'Montserrat', sans-serif; }
 
 h1,h2,h3,p,
-main > button:hover { color: var(--color-light-bright); }
+button:hover { color: var(--color-light-bright); }
 
 
 .App {
   text-align: center;
 }
-
 
 
 .App-header {
@@ -28,24 +26,47 @@ main > button:hover { color: var(--color-light-bright); }
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: var(--color-grey-middle);
-  font-weight: 200;
+
 }
 
 
 
 button {
+  margin: 0;
   padding: 20px;
   font-size: 20px;
   background-color: #90e7e7;
   margin: 2px; 
   color: var(--color-fuchsia);
   font-weight: 200;
+  aspect-ratio: 16/9;
+  width: 7rem;
+  margin: 0.5rem;
+  background-color: var(--color-transparent);
+  border-radius: 1.1rem;
+  border: 2px solid var(--color-grey-middle);
+  opacity: 1;
+  font-family: 'Montserrat', sans-serif;
 }
 
 section h2 {
-  font-size: 160px;
+  margin: 0;
   background: -webkit-linear-gradient(var(--color-grey-eeeeee), var(--color-grey-dark));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17rem;
 }
+
+footer {
+  font-size: 15px;
+}
+
+main h1{
+  color: var(--color-grey-middle);
+  font-weight: 350;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4rem; 
+  margin: 0;
+}
+a { text-decoration: none; }
