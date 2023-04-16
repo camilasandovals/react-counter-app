@@ -38,7 +38,7 @@ button {
   background-color: #90e7e7;
   margin: 2px; 
   color: var(--color-fuchsia);
-  font-weight: 200;
+  font-weight: 600;
   aspect-ratio: 16/9;
   width: 7rem;
   margin: 0.5rem;
@@ -60,13 +60,14 @@ section h2 {
 
 footer {
   font-size: 15px;
+  opacity: 80%;
 }
 
 main h1{
   color: var(--color-grey-middle);
-  font-weight: 350;
+  font-weight: 400;
   font-family: 'Montserrat', sans-serif;
-  font-size: 4rem; 
+  font-size: 6rem; 
   margin: 0;
 }
 a { text-decoration: none; }

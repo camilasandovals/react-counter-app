@@ -1,7 +1,7 @@
 export default function Header() {
     return (
         <main>
-            <h1>React Counter App</h1>
+            <h1>Counter</h1>
         </main>
     )
 }

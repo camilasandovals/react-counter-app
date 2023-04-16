@@ -4,7 +4,7 @@ export default function Footer (){
     
     return (
         <footer>
-            <p><small>&copy; 2023</small></p>
+            <p><small>&copy; 2023 Camila Sandoval</small></p>
             <a href="{githubURL}" target="_blank" rel="noreferrer">See Code in Github</a>
         </footer>
     )
